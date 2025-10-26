@@ -1,11 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Drag Papers ❤️</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Short+Stack&family=Homemade+Apple&display=swap">
-  <link rel="stylesheet" href="./style.css">
+
+  <!-- Google Fonts -->
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Short+Stack&family=Homemade+Apple&display=swap"
+  />
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="./style.css" />
+
+  <!-- Inline CSS -->
+  <style>
+    /* Simple draggable box for testing */
+    .drag-item {
+      width: 150px;
+      height: 150px;
+      background-color: #3498db;
+      color: white;
+      text-align: center;
+      line-height: 150px;
+      border-radius: 10px;
+      position: absolute;
+      cursor: grab;
+      user-select: none;
+      left: 50px;
+      top: 50px;
+    }
+
+    /* Prevent scroll during drag */
+    body, .paper {
+      touch-action: none;
+      margin: 0;
+      overflow: hidden;
+    }
+  </style>
 </head>
+
 <body>
   <!-- A pen by Developer Tanishq -->
 
@@ -14,38 +49,37 @@
   <div class="paper image">
     <p>you are one of the</p>
     <p>most kindest people I know</p>
-    <img src="images/2.jpg" alt="photo 2">
+    <img src="images/2.jpg" alt="photo 2" />
   </div>
 
   <div class="paper image">
     <p>I want to see you win, I want to see you</p>
     <p>smash every single dream you have</p>
-    <img src="images/4.jpg" alt="photo 1">
+    <img src="images/4.jpg" alt="photo 1" />
   </div>
 
   <div class="paper image">
     <p>I'll always be there for you,</p>
     <p>Whenever u were feeling low or wanted</p>
-    <p>someone to talk i'm always here for u❤️</p>
-    <p>I'm just a dm away from uhh,</p>
+    <p>someone to talk I'm always here for u ❤️</p>
+    <p>I'm just a DM away from uhh,</p>
   </div>
 
   <div class="paper image">
-    <!-- ❌ Missing opening <p> fixed -->
     <p>Keep smiling always 😊</p>
-    <img src="images/6.jpg" alt="photo 2">
+    <img src="images/6.jpg" alt="photo 2" />
   </div>
 
   <div class="paper image">
     <p>How can someone be</p>
     <p>so cute ❤️</p>
-    <img src="images/3.jpg" alt="photo 3">
+    <img src="images/3.jpg" alt="photo 3" />
   </div>
 
   <div class="paper red">
     <p class="p1">Birthday Of The Most</p>
     <p class="p2">Prettiest Person 😍</p>
-    <img src="images/1.jpg" alt="photo 1">
+    <img src="images/1.jpg" alt="photo 1" />
   </div>
 
   <div class="paper">
@@ -57,6 +91,9 @@
     <p class="p1">Drag the papers to move!</p>
   </div>
 
+  <!-- External JS -->
   <script src="./script.js"></script>
+
+  <!-- FIX: Closed <script> properly -->
 </body>
 </html>

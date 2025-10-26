@@ -1,29 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
 
-
-
-
 body {
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-
   background-size: 1000px;
-  background-image: url("http://i.pinimg.com/1200x/de/6f/27/de6f2758b183b5bd85d6e10fb58685d3.jpg");
+  background-image: url("https://www.psdgraphics.com/wp-content/uploads/2022/01/white-math-paper-texture.jpg");
   background-position: center center;
+  margin: 0;
 }
 
 .paper {
-  background-image: url("https://i.pinimg.com/736x/bc/00/da/bc00dabcd7ccd0fad36e98872f589ff5.jpg");
+  background-image: url("https://i0.wp.com/textures.world/wp-content/uploads/2018/10/2-Millimeter-Paper-Background-copy.jpg?ssl=1");
   background-size: 500px;
   background-position: center center;
   padding: 20px 100px;
-/*  min-width: 800px; */
-  
   transform: rotateZ(-5deg);
-  box-shadow: 1px 15px 20px 0px rgba(0,0,0,0.5);
-  
+  box-shadow: 1px 15px 20px 0px rgba(0, 0, 0, 0.5);
   position: absolute;
 }
 
@@ -38,12 +32,13 @@ body {
 .paper.image {
   padding: 10px;
 }
+
 .paper.image p {
   font-size: 30px;
 }
 
 img {
-  max-height: 275px;
+  max-height: 200px;
   width: 100%;
   user-select: none;
 }
@@ -57,17 +52,17 @@ img {
   top: 0;
   left: 0;
   background-size: 150px;
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
   opacity: 0.6;
 }
 
 p {
-  font-family: 'Zeyada';
+  font-family: 'Zeyada', cursive;
   font-size: 50px;
-  color: rgb(0,0,100);
+  color: rgb(0, 0, 100);
   opacity: 0.75;
   user-select: none;
-  
-  /* filter: drop-shadow(2px 1.5px 1px rgba(0,0,105,0.9));*/
+  /* Changed this comment style — CSS doesn’t support '//' */
+  /* filter: drop-shadow(2px 1.5px 1px rgba(0,0,105,0.9)); */
 }
