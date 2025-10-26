@@ -6,13 +6,13 @@ body {
   align-items: center;
   justify-content: center;
   background-size: 1000px;
-  background-image: url("https://www.psdgraphics.com/wp-content/uploads/2022/01/white-math-paper-texture.jpg");
+  background-image: url("https://i.pinimg.com/736x/c0/88/43/c088434ce055e5e642b168eca1643508.jpg");
   background-position: center center;
   margin: 0;
 }
 
 .paper {
-  background-image: url("https://i0.wp.com/textures.world/wp-content/uploads/2018/10/2-Millimeter-Paper-Background-copy.jpg?ssl=1");
+  background-image: url("https://i.pinimg.com/1200x/b2/ed/0e/b2ed0e966a3d90661793ade7330849c9.jpg");
   background-size: 500px;
   background-position: center center;
   padding: 20px 100px;
@@ -66,3 +66,4 @@ p {
   /* Changed this comment style — CSS doesn’t support '//' */
   /* filter: drop-shadow(2px 1.5px 1px rgba(0,0,105,0.9)); */
 }
+
