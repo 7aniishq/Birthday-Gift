@@ -12,7 +12,7 @@ body {
 }
 
 .paper {
-  background-image: url("https://i.pinimg.com/736x/c6/dd/33/c6dd338aefe8f8dfbea186d93c98ee60.jpg");
+  background-image: url("https://i0.wp.com/textures.world/wp-content/uploads/2018/10/2-Millimeter-Paper-Background-copy.jpg?ssl=1");
   background-size: 500px;
   background-position: center center;
   padding: 20px 100px;
@@ -66,5 +66,6 @@ p {
   /* Changed this comment style — CSS doesn’t support '//' */
   /* filter: drop-shadow(2px 1.5px 1px rgba(0,0,105,0.9)); */
 }
+
 
 
